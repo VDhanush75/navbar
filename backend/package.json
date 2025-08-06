@@ -1,0 +1,15 @@
+{
+  "name": "bangalore-bakery-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Bangalore Bakery e-commerce website",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["bakery", "ecommerce", "api", "nodejs", "express"],
+  "author": "Bangalore Bakery Team",
+  "license": "MIT"
+}
